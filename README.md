@@ -13,11 +13,23 @@
 
 ---
 
-## 사용 방법
+## 설정 방법
 
-1. **이 레포지토리를 포크하세요**:
-   - 오른쪽 상단의 **Fork** 버튼을 클릭하여 자신의 GitHub 계정으로 레포지토리를 복제합니다.
-
-2. **포크한 레포지토리를 클론하세요**:
+1. **대상 URL 및 선택자 설정**:
+   - `src/main/java/org/hyo/Main.java` 파일에서 `TARGET_URL`과 `TARGET_SELECTOR` 값을 수정하세요.
+     ```java
+     private static final String TARGET_URL = "https://your-target-url.com";
+     private static final String TARGET_SELECTOR = "#your-css-selector";
+     ```
 
 ---
+
+## 실행 방법
+
+1. **레포지토리를 포크하세요**:
+   - 오른쪽 상단의 **Fork** 버튼을 클릭하여 자신의 GitHub 계정으로 레포지토리를 복사합니다.
+
+2. **포크한 레포지토리를 클론하세요**:
+   ```bash
+   git clone https://github.com/your-username/your-forked-repository.git
+   cd your-forked-repository
